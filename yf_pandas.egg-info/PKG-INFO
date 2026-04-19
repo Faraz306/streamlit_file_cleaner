@@ -1,0 +1,27 @@
+Metadata-Version: 2.4
+Name: yf_pandas
+Version: 1.0.0
+Summary: This package can be used to make file cleaners in 2 lines, easily and fastly.
+Home-page: https://example.com
+Author: Yamaan Faraz YF® official
+Author-email: farazyamaan@gmail.com
+License: MIT
+Keywords: file cleaner,2 lines file cleaner,YF,Yamaan Faraz YF® official package
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: streamlit
+Requires-Dist: time
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: home-page
+Dynamic: keywords
+Dynamic: license
+Dynamic: requires-dist
+Dynamic: summary

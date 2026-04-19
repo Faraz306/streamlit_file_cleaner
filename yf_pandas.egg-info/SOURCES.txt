@@ -1,0 +1,8 @@
+setup.py
+yf_pandas/__init__.py
+yf_pandas/main.py
+yf_pandas.egg-info/PKG-INFO
+yf_pandas.egg-info/SOURCES.txt
+yf_pandas.egg-info/dependency_links.txt
+yf_pandas.egg-info/requires.txt
+yf_pandas.egg-info/top_level.txt
