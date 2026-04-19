@@ -9,7 +9,7 @@ def make_page(title, text):
 def read_file():
     if 'clicked' not in st.session_state:
         st.session_state['clicked'] = False
-    uploaded = st.file_uploader("Choose a file")
+    uploaded = st.file_uploader("Choose a file", key="file")
     if uploaded:
         with st.spinner('Loading file...'):
             time.sleep(5)
@@ -34,5 +34,11 @@ def read_file():
                         new_row = [cell.replace(i1, "") for cell in row]
                         new_rows.append(new_row)
                     st.table(new_rows)
+
+    if 'clicked' not in st.session_state:
+        st.session_state['clicked'] = False
+    st.session_state['clicked'] = True
+
+    downloaded = st.download_button("download file", key="file", data=new_rows)
 make_page("My pandas!", text="My pandas!")
 read_file()
